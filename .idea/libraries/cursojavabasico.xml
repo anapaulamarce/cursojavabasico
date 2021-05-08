@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="cursojavabasico">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/AULA05" />
+      <root url="file://$PROJECT_DIR$/AULA06" />
+      <root url="file://$PROJECT_DIR$/AULA06/.idea" />
+      <root url="file://$PROJECT_DIR$/AULA10" />
+      <root url="file://$PROJECT_DIR$/AULA11" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$" />
+    </SOURCES>
+  </library>
+</component>

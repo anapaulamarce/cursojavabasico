@@ -1,0 +1,13 @@
+package cursoloiane.Exercicios;
+public class Pessoa {
+    public static void main(String[] args){
+        // variavel que declara a idade de uma pessoa
+        String nome = "Paula";
+        int idade = 22;
+        double altura = 1.70;
+
+        System.out.println("Nome = " + nome);
+        System.out.println("Idade = " + idade);
+        System.out.println("Altura = " + altura);
+    }
+}

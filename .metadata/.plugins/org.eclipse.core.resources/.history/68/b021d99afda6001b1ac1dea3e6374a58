@@ -1,0 +1,52 @@
+package cursoloiane.Exercicios;
+public class Pessoa {
+
+private String nome;
+private String dataNascimento;
+private String altura;
+
+public String getNome() {
+	return nome;
+}
+public void setNome(String nome) {
+	this.nome = nome;
+}
+public String getDataNascimento() {
+	return dataNascimento;
+}
+public void setDataNascimento(String dataNascimento) {
+	this.dataNascimento = dataNascimento;
+}
+public String getAltura() {
+	return altura;
+}
+public void setAltura(String altura) {
+	this.altura = altura;
+}
+public void Info (String nome,String dataNascimento, String altura) {
+	this.nome = nome;
+	this.dataNascimento = dataNascimento;
+	this.altura = altura;
+	
+}
+public double idade (double anoNascimento, double anoAtual) {
+	return anoAtual - anoNascimento;
+}
+}
+
+package Facul;
+
+public class TestePessoa {
+
+public static void main (String [] args) {
+	Pessoa p = new Pessoa ();
+	
+	String Informacao;
+	Informacao = p.Info();
+	System.out.println("Minhas informações são:"+Informacao);
+	
+	double resultado;
+	resultado = p.idade(1999, 2019);
+	System.out.println("Minha idade é:"+resultado);
+}
+}

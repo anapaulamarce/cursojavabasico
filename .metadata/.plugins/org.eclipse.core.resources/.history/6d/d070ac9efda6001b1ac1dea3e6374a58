@@ -1,0 +1,50 @@
+package cursoloiane.Exercicios;
+public class pessoa {
+    
+    private static String nome;
+    private static String dataNascimento;
+    private static float idade;
+     
+    public static String getNome(){
+        return nome;
+    }
+  
+    public void setNome(String nome){
+        pessoa.nome = nome;
+    }
+     
+    public static String getDataNascimento(){
+        return dataNascimento;
+    }
+     
+    public void setDataNascimento(String dataNasciemnto){
+        pessoa.dataNascimento = dataNascimento;
+    }
+     
+    public static float getIdade(){
+        return idade;
+    }
+     
+    public void setIdade(float idade){
+        pessoa.idade = idade;
+    }
+     
+    public static Scanner entrada;
+    
+//FALTA FAZER O CALCULO PARA A IDADE
+     
+    public static void main(String[] args) {
+       entrada = new Scanner(System.in);
+        
+       System.out.println("Digite seu nome: ");
+       nome = entrada.nextLine();
+        
+       System.out.println("Digite sua Data de Nascimento: ");
+       dataNascimento = entrada.nextLine();
+    }
+    public static void main1(String[] args) {
+    System.out.println("Seu nome e: " + nome);
+    System.out.println("Sua idade e: " + idade);
+     
+    }
+}

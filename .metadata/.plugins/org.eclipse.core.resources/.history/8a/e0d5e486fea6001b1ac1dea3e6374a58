@@ -1,0 +1,32 @@
+package cursoloiane.Exercicios;
+public class Pessoa {
+    
+    private static String nome;
+    private static String dataNascimento;
+    private static float idade;
+     
+    public static String getNome(){
+        return nome;
+    }
+  
+    public void setNome(String nome){
+        Pessoa.nome = nome;
+    }
+     
+    public static String getDataNascimento(){
+        return dataNascimento;
+    }
+     
+    public void setDataNascimento(String dataNasciemnto){
+        Pessoa.dataNascimento = dataNascimento;
+    }
+     
+    public static float getIdade(){
+        return idade;
+    }
+     
+    public void setIdade(float idade){
+        Pessoa.idade = idade;
+    }
+     
+   
